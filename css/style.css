@@ -1,0 +1,63 @@
+ body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    font-family: "Poppins",sans-serif;
+    background: #111;
+    user-select: none;
+}
+a{
+    font-size: 9px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #cfc8e6;
+    letter-spacing: .25px;
+
+}
+#active-1,
+#active-2,
+#active-3{
+    position: absolute;
+    bottom: -22px;
+    left: -100px;
+    height: 30px;
+    width: 30px;
+    background: #cfc8e6;
+    border-radius: 50%;
+    transition: .5s ease-out;
+}
+#active-2{
+    transition-delay: 0.02s;
+
+}
+#active-3{
+    transition-delay: 0.04s;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 65px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #111111;
+    box-shadow: 6px 6px 12px #070707,-6px -6px 12px #1b1b1b;
+    width: 100%;
+    /* justify-content: center; */
+}
+.menu_item {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     height: 40px;
+     margin: 10px;
+     overflow: hidden;
+
+
+}
